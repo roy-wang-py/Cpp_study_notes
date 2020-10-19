@@ -5,7 +5,7 @@
 ----
 ## 析构函数
 - 如果没有声明析构函数，编译器将自动声明一个析构函数，正常情况时一个non virsual
-- 如果当前类集成于一个包含virsual析构的base class，那么将编辑器将生辰过一个virsual的析构函数
+- 如果当前类集成于一个包含virsual析构的base class，那么将编辑器将生成过一个virsual的析构函数
 - 如果声明了析构函数，那么编译器经不会自动生成析构函数
 ----
 ## copy构造函数 和 copy assignment运算符
