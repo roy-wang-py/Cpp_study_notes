@@ -20,3 +20,14 @@
         ...
     };
 ```
+- 针对c++11有个新特性，通过=delete来显示禁止自动生成的成员函数，类似的还有=default（显示指定自动生成成员函数）
+```
+    class Example{
+    public:
+        ...
+        Example() = default; //使用自动生成的无参的默认构造函数
+        Example(const Example& rhs) =delete;//禁止生成拷贝构造函数
+        ...
+        
+    }
+```
